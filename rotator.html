@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title> PSY RASOWE</title>
+    <link rel="stylesheet" href="styleeeee.css">
+    <script src="script.js"></script>
+
+  </head>
+  <body>
+    <div id="dol"></div>
+      <img id="duzezdjecie" src="pobrane1.jpg">
+        <script type="text/javascript">
+            var images = ['pobrane2.jpg', 'pobrane3.jpg', 'pobrane4.jpg','pobrane5.jpg','pobrane1.jpg'],
+                i = 0;
+            document.getElementById('duzezdjecie').addEventListener('click', function() {
+                this.src = images[i++%5];
+            });
+        </script>
+    <div id="stopka"><p>Konstantyn Wenek 4G 12.10.2022</p></div>
+  </body>
+</html>
